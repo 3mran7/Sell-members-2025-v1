@@ -309,7 +309,7 @@ client.on('ready', () => {
   console.log(`Bot is On! ${client.user.tag}`);
    console.log(`Bot Version ${process.version}`);
 });
-client.login("MTI5OTgyMzc5MjE5Mjc1MzczNQ.GSvlqK.BfQ10pBS-lt1lTCwoFUdd2vP9JCbS1DpS5L6OM");
+client.login("");
 const { AutoKill } = require('autokill')
 AutoKill({ Client: client, Time: 5000 })
 
